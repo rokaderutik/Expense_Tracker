@@ -1,0 +1,27 @@
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 58px;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--color-white);
+    font-weight: 700;
+    /* font-family: 'Ubuntu'; */
+}
+
+@media screen and (max-width: 640px) {
+    .title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .title {
+        font-size: 24px;
+    }
+}

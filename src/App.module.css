@@ -1,0 +1,11 @@
+.app_wrapper {
+    margin-left: 1.25rem;
+    margin-right: 1.50rem;
+}
+
+@media screen and (max-width: 640px) {
+    .app_wrapper {
+        margin-left: 0.75rem;
+        margin-right: 1rem;
+    }
+}
