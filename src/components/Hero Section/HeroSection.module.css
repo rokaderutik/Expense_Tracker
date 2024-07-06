@@ -1,0 +1,13 @@
+.hero_section_wrapper {
+    background-color: #626262;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;  /*40 is of opacity*/
+
+    height: 270px;
+}
