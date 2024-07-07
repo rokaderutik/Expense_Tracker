@@ -1,11 +1,14 @@
 .app_wrapper {
+    box-sizing: border-box;
     margin-left: 1.25rem;
     margin-right: 1.50rem;
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 640px) {
     .app_wrapper {
         margin-left: 0.75rem;
         margin-right: 1rem;
+        margin-bottom: 1.5rem;
     }
 }

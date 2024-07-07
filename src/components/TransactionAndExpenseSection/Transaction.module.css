@@ -1,0 +1,137 @@
+.transaction_section_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    width: 64%;
+    box-sizing: border-box;
+}
+
+.heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* font-family: 'Ubuntu'; */
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 32px;
+    color: var(--color-white);
+}
+
+.transaction_list_wrapper {
+    height: 345px;
+    width: 100%;
+
+    border-radius: 15px;
+    border: none;
+    box-sizing: border-box;
+    background-color: var(--color-white);
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    padding: 8px 14px 8px 22px;
+}
+
+/* css for Expense item */
+.Expense_item_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon_and_title_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.icon {
+    display: flex;
+    height: 38px;
+    width: 38px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    height: 24px;
+    width: 24px;
+}
+
+.title_and_date_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #000000;
+}
+
+.date {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #9B9B9B;
+}
+
+.price_and_actions_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.price {
+    margin: 0px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #F4BB4A;
+}
+
+.actions_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.button {
+    height: 38px;
+    width: 38px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: var(--color-white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button svg {
+    height: 24px;
+    width: 24px;
+}
+
+.hr {
+    background-color: #9B9B9B;
+    margin: 0px;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 640px) {
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

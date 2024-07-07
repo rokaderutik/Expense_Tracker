@@ -1,5 +1,6 @@
 import Card from "./Card";
 import styles from "./HeroSection.module.css";
+import PieChartSection from "./PieChartSection";
 
 const HeroSection = () => {
 
@@ -13,6 +14,7 @@ const HeroSection = () => {
                 cardTitle="Expenses"
                 buttonTitle="Expense"
             />
+            <PieChartSection />
         </div>
     );
 };

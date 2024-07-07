@@ -1,0 +1,17 @@
+.pie_chart {
+    width: 205px !important;
+    height: 205px !important;
+}
+
+@media screen and (max-width: 1008px) {
+    .pie_chart {
+        width: 175px !important;
+        height: 175px !important;
+    }
+}
+@media screen and (max-width: 640px) {
+    .pie_chart {
+        width: 138px !important;
+        height: 138px !important;
+    }
+}
