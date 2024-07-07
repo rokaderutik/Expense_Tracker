@@ -4,6 +4,25 @@ import { PiGiftLight } from "react-icons/pi";
 import { CiRollingSuitcase } from "react-icons/ci";
 import { RxCrossCircled } from "react-icons/rx";
 import { SlPencil } from "react-icons/sl";
+import { BsArrowLeft } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
+
+const PaginationComp = () => {
+
+    return (
+        <div className={styles.pagination_comp_wrapper}>
+            <div className={styles.pagination_comp_box}>
+                <button className={`${styles.button} ${styles.pagination_btn_color}`}>
+                    <BsArrowLeft />
+                </button>
+                <div className={styles.pagination_number_box}>{1}</div>
+                <button className={`${styles.button} ${styles.pagination_btn_color}`}>
+                    <BsArrowRight />
+                </button>
+            </div>
+        </div>
+    );
+};
 
 const ExpenseItem = () => {
 
@@ -58,6 +77,8 @@ const Transactions = () => {
                 <ExpenseItem />
                 <ExpenseItem />
                 <ExpenseItem />
+
+                <PaginationComp />
             </div>
         </div>
     );

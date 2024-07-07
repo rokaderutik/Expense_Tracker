@@ -116,6 +116,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .button svg {
@@ -127,6 +128,44 @@
     background-color: #9B9B9B;
     margin: 0px;
     margin-top: 6px;
+}
+
+/* pagination component's css */
+.pagination_comp_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.pagination_comp_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 38px;
+    width: 137px;
+}
+
+.pagination_btn_color {
+    background: linear-gradient(0deg, #F1F1F1, #F1F1F1),
+                linear-gradient(0deg, #F1F1F1, #F1F1F1),
+                linear-gradient(0deg, #F1F1F1, #F1F1F1),
+                linear-gradient(0deg, #F1F1F1, #F1F1F1);
+    color: #222222;
+}
+
+.pagination_number_box {
+    height: 38px;
+    width: 38px;
+    background-color: #43967B;
+    color: var(--color-white);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: none;
+    border-radius: 5px;
+    /* font-family: 'Ubuntu'; */
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
 }
 
 @media screen and (max-width: 640px) {
