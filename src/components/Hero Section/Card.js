@@ -21,6 +21,7 @@ const Card = ({ cardTitle, buttonTitle }) => {
             </p>
             <button 
                 className={`${styles.button} ${cardTitle === 'Expenses' ? styles.expense_button : styles.income_button}`}
+                onClick={() => {}}
             >
                 + Add {buttonTitle}
             </button>

@@ -27,7 +27,18 @@
     box-sizing: border-box;
     background-color: var(--color-white);
     box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 12px 8px;
 }
+
+.composed_chart_component {
+    height: 100% !important;
+    width: 100% !important;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Open sans;
+    color: #000000;
+}
+
 
 
 @media screen and (max-width: 640px) {

@@ -1,0 +1,120 @@
+.expense_model_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EFEFEFD9; 
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 24px 28px 28px;
+
+    width: 538px;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.buttons_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    gap: 18px;
+}
+
+.input {
+    height: 51px;
+    width: 223px;
+    border: none;
+    border-radius: 15px;
+    background-color: #FBFBFB;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: Open sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #919191;
+    padding-left: 12px;
+    box-sizing: content-box;
+}
+
+.input:focus, select:focus {
+    outline: none;
+}
+
+.select {
+    height: 51px;
+    width: 223px;
+    border: none;
+    border-radius: 15px;
+    background-color: #FBFBFB;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: Open sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #919191;
+    padding-left: 12px;
+    box-sizing: content-box;
+}
+
+.button {
+    height: 51px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-size: Open sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 30px 0;
+    cursor: pointer;
+}
+
+.cancel_button {
+    background: #E3E3E3;
+    width: 112px;
+}
+
+.expense_button {
+    background: #F4BB4A;
+    width: 234px;
+}
+
+@media screen and (max-width:660px) {
+    .title {
+        font-size: 26px;
+    }
+    .expense_model_wrapper {
+        width: 300px;
+        padding: 20px 24px 24px;
+    }
+    .buttons_wrapper {
+        gap: 12px;
+    }
+    .input, .select, .button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .title {
+        font-size: 23px;
+    }
+    .expense_model_wrapper {
+        width: 200px;
+    }
+    .input, .button, .select {
+        width: 100%;
+        height: 40px;
+    }
+}
