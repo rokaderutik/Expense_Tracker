@@ -45,7 +45,8 @@ function PieChartComponent({ categorySpends }) {
     { name: "Other", value: categorySpends.other },
   ];
 
-  if (!data?.length) {
+  const spendAll = data.reduce((acc, obj) => acc + obj.value, 0);
+  if (spendAll === 0) {
     return (
       <div className={styles.pie_chart_section_wrapper}>
           No transactions!
