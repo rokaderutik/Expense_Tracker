@@ -169,8 +169,20 @@
 }
 
 @media screen and (max-width: 640px) {
+    .transaction_section_wrapper {
+        width: 100%;
+    }
+    .transaction_list_wrapper {
+        padding: 8px 8px 8px 16px;
+    }
     .heading {
         font-size: 24px;
         line-height: 28px;
+    }
+    .icon_and_title_box {
+        gap: 10px;
+    }
+    .price_and_actions_box {
+        gap: 12px;
     }
 }

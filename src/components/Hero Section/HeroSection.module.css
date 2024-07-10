@@ -11,3 +11,37 @@
 
     height: 270px;
 }
+
+.medium_devices_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.medium_devices_card_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 24px;
+}
+
+.large_devices {
+    display: block !important;
+}
+
+.medium_devices {
+    display: none !important;
+}
+
+
+@media screen and (max-width: 950px) {
+    .large_devices {
+        display: none !important;
+    }
+    .medium_devices {
+        display: block !important;
+    }
+}

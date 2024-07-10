@@ -5,4 +5,6 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    flex-wrap: wrap;
+    row-gap: 22px;
 }
