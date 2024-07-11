@@ -38,7 +38,10 @@ const ExpenseModal = ({
 
     // to fill form with details of expense to edit
     useEffect(() => {
-
+        if(editItemId) {
+            const initialInputData = expenseList.find((item) => item.id === editItemId);
+            setInputData(initialInputData);
+        }
     }, [editItemId]);
 
     const handleClose = () => setIsOpen(false);
