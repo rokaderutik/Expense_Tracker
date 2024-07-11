@@ -51,7 +51,7 @@ const ExpenseItem = ({ details, handleDelete, handleEdit }) => {
     const formatDate = (date) => {
         const monthList = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
         const dateArr = date.split('-');
-        return `${monthList[Number(dateArr[1])]} ${dateArr[2]}, ${dateArr[0]}`;
+        return `${monthList[Number(dateArr[1])-1]} ${dateArr[2]}, ${dateArr[0]}`;
     };
 
     return (
